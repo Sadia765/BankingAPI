@@ -9,6 +9,7 @@ import javax.servlet.http.HttpSession;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.revature.models.LoginDTO;
+import com.revature.models.User;
 import com.revature.services.LoginService;
 
 public class LoginController {
@@ -36,10 +37,13 @@ public class LoginController {
 			
 			LoginDTO l = om.readValue(body, LoginDTO.class);
 			//System.out.println("ls(login(l) returns " + ls.login(l));
-			if(ls.login(l) != null) {
+			User currentUser = ls.login(l);
+			if(currentUser != null) {
 				
 				HttpSession ses = req.getSession();
 				ses.setAttribute("user", l);
+				ses.setAttribute("userId", currentUser.getUserId());
+				ses.setAttribute("userRole", currentUser.getRole().getRole());
 				ses.setAttribute("loggedin", true);
 				res.setStatus(200);
 				res.getWriter().println(ls.login(l));
@@ -60,11 +64,14 @@ public class LoginController {
 			LoginDTO l = new LoginDTO();
 			l.username = req.getParameter("username");
 			l.password = req.getParameter("password");
-			
-			if(ls.login(l) != null) {
+			User currentUser = ls.login(l);
+			if(currentUser != null) {
 				
 				HttpSession ses = req.getSession();
 				ses.setAttribute("user", l);
+				ses.setAttribute("userId", currentUser.getUserId());
+				ses.setAttribute("userRole", currentUser.getRole().getRole());
+
 				ses.setAttribute("loggedin", true);
 				res.setStatus(200);
 				res.getWriter().println(ls.login(l));
