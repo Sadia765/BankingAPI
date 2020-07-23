@@ -1,0 +1,148 @@
+package com.revature.repos;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.revature.models.Role;
+import com.revature.models.User;
+import com.revature.util.ConnectionUtil;
+
+public class UserDAO implements IUserDAO{
+
+	private static final RoleDAO rdao = new RoleDAO();
+	private static final AccountDAO	dao = new AccountDAO();
+	
+	@Override
+	public List<User> findAll() {
+		try(Connection conn = ConnectionUtil.getConnection()){
+			String sql = "SELECT * FROM user_info;";
+			
+			Statement statement = conn.createStatement();
+			
+			List<User> list = new ArrayList<>();
+			
+			ResultSet result = statement.executeQuery(sql);
+			
+			while(result.next()) {
+				User auser = new User();
+				auser.setUserId(result.getInt("user_id"));
+				auser.setUsername(result.getString("username"));
+				auser.setPassword(result.getString("user_password"));
+				auser.setFirstName(result.getString("first_name"));
+				auser.setLastName(result.getString("last_name"));
+				auser.setEmail(result.getString("email"));	
+				auser.setAccounts(dao.findByUser(auser.getUserId()));
+			
+				if(result.getString("role_fk") != null) {
+					Role r = rdao.findByRoleId(result.getInt("role_fk"));
+					auser.setRole(r);
+				}
+				
+				list.add(auser);
+			}
+			return list;
+			
+		}
+		catch(SQLException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+	@Override
+	public User updateUser(User u) {
+		try(Connection conn = ConnectionUtil.getConnection()){
+			
+			int index = 0;
+			
+			String sql = "UPDATE user_info SET username = ?, user_password = ?, first_name = ?, last_name = ?, email = ?, role_fk = ? WHERE user_id = '"+u.getUserId()+"';";
+			
+			PreparedStatement statement = conn.prepareStatement(sql);
+			statement.setString(++index, u.getUsername());
+			statement.setString(++index, u.getPassword());
+			statement.setString(++index, u.getFirstName());
+			statement.setString(++index, u.getLastName());
+			statement.setString(++index, u.getEmail());
+			statement.setString(++index, u.getRole().getRole());
+			
+			statement.execute();
+
+			return u;
+
+		}
+		catch(SQLException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+
+	@Override
+	public User addUser(User u) {
+		try(Connection conn = ConnectionUtil.getConnection()){
+			
+			int index = 0;
+			
+			String sql = "INSERT INTO user_info(username, user_password, first_name, last_name, email, role_fk)"
+					+ "VALUES(?,?,?,?,?,?);";
+			
+			PreparedStatement statement = conn.prepareStatement(sql);
+			statement.setString(++index, u.getUsername());
+			statement.setString(++index, u.getPassword());
+			statement.setString(++index, u.getFirstName());
+			statement.setString(++index, u.getLastName());
+			statement.setString(++index, u.getRole().getRole());
+			
+			statement.execute();
+			u.setAccounts(dao.findByUser(u.getUserId()));
+			return u;
+
+		}
+		catch(SQLException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+	@Override
+	public User findById(int userId) {
+		try(Connection conn = ConnectionUtil.getConnection()){
+			
+			String sql = "SELECT * FROM user_info WHERE user_id = "+  userId +";";
+			
+			Statement statement = conn.createStatement();
+			
+			ResultSet result = statement.executeQuery(sql);
+			//MODIFY TO INCLUDE LIST OF ACCOUNTS 
+			if(result.next()) {
+				User auser = new User();
+				auser.setUserId(result.getInt("user_id"));
+				auser.setUsername(result.getString("username"));
+				auser.setPassword(result.getString("user_password"));
+				auser.setFirstName(result.getString("first_name"));
+				auser.setLastName(result.getString("last_name"));
+				auser.setEmail(result.getString("email"));	
+				auser.setAccounts(dao.findByUser(auser.getUserId()));
+			
+				if(result.getString("role_fk") != null) {
+					Role r = rdao.findByRoleId(result.getInt("role_fk"));
+					auser.setRole(r);
+				}
+				
+			
+			return auser;
+			}
+		}
+		catch(SQLException e) {
+			e.printStackTrace();
+		}
+
+		return null;
+	}
+
+}
