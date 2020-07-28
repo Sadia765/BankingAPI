@@ -83,7 +83,7 @@ public class UserDAO implements IUserDAO{
 
 
 	@Override
-	public User addUser(User u) {
+	public boolean addUser(User u) {
 		try(Connection conn = ConnectionUtil.getConnection()){
 			
 			int index = 0;
@@ -100,13 +100,13 @@ public class UserDAO implements IUserDAO{
 			
 			statement.execute();
 			u.setAccounts(dao.findByUser(u.getUserId()));
-			return u;
+			return true;
 
 		}
 		catch(SQLException e) {
 			e.printStackTrace();
 		}
-		return null;
+		return false;
 	}
 
 	@Override

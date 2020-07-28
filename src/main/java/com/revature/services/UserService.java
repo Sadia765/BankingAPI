@@ -18,15 +18,15 @@ public class UserService {
 		return udao.updateUser(u);
 	}
 
-	public User addUser(User u) {
+	public boolean addUser(User u) {
 		List<User> list = findAll();
 		for(User auser: list) {
 			if(auser.getUsername().equals(u.getUsername()) || auser.getEmail().equals(u.getEmail())) {
-				return null; //usernames should be unique!!
+				return false; //usernames should be unique!!
 			}
 		}
 		
-		User b = udao.addUser(u);
+		boolean b = udao.addUser(u);
 		System.out.println("User is AS = " + b);
 		return b;
 	}

@@ -1,6 +1,6 @@
 package com.revature.models;
 
-public class RequestDTO {
+public class WithdrawDepositDTO {
 	public int accountId;
 	public double amount;
 }

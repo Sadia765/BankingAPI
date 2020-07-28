@@ -8,7 +8,7 @@ public interface IUserDAO {
 
 	public List<User> findAll();
 	public User updateUser(User u);
-	public User addUser(User u);
+	public boolean addUser(User u);
 	public User findById(int userId);
 	
 	

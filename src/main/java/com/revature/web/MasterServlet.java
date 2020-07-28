@@ -19,7 +19,7 @@ import com.revature.controllers.RoleController;
 import com.revature.controllers.UserController;
 import com.revature.models.Account;
 import com.revature.models.AccountDTO;
-import com.revature.models.RequestDTO;
+import com.revature.models.WithdrawDepositDTO;
 import com.revature.models.TransferDTO;
 import com.revature.models.User;
 
@@ -88,14 +88,14 @@ public class MasterServlet extends HttpServlet {
 						
 						System.out.println(u);
 						
-						User currentUser = uc.addUser(u);
-						if(currentUser != null) {
-							currentUser.setUserId(uc.findAll().size());
+						
+						if(uc.addUser(u)) {
+							u.setUserId(uc.findAll().size());
 						}
-						res.getWriter().println(currentUser);
+						res.getWriter().println(u);
 						res.setStatus(201);
 					}
-					else {//You don't have Admin privileges.
+					else {//You don't have Admin privileges, so you can't register a user.
 						res.setStatus(401);
 						res.getWriter().println("Invalid fields");
 					}
@@ -105,7 +105,7 @@ public class MasterServlet extends HttpServlet {
 					res.getWriter().println("You must be logged in to do that!");
 				}
 				break;
-		
+		/*
 			case "accounts":
 				ses = req.getSession(false);
 				if (ses != null && ((Boolean) ses.getAttribute("loggedin"))) {
@@ -192,7 +192,7 @@ public class MasterServlet extends HttpServlet {
 					res.getWriter().println("You must be logged in to do that!");
 				}
 				break;
-		
+		*/
 			case "login":
 				lc.login(req,res);
 				//String json = om.writeValueAsString(lc.login(req,res));

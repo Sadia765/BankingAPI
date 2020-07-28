@@ -15,7 +15,7 @@ public class UserController {
 	public User updateUser(User u) {
 		return us.updateUser(u);
 	}
-	public User addUser(User u) {
+	public boolean addUser(User u) {
 		return us.addUser(u);
 	}
 	public User findById(int userId) {
