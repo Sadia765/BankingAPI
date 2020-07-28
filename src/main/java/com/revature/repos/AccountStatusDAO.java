@@ -22,6 +22,7 @@ public class AccountStatusDAO implements IAccountStatusDAO {
 
 			if(result.next()) {
 				AccountStatus astatus = new AccountStatus();
+				astatus.setStatusId(statusId);
 				astatus.setStatus(result.getString("a_status"));
 
 				return astatus;

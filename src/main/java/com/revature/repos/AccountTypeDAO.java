@@ -22,6 +22,7 @@ public class AccountTypeDAO implements IAccountTypeDAO {
 
 			if(result.next()) {
 				AccountType atype = new AccountType();
+				atype.setTypeId(typeId);
 				atype.setType(result.getString("a_type"));
 
 				return atype;

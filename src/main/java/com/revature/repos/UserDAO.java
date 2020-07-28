@@ -37,9 +37,12 @@ public class UserDAO implements IUserDAO{
 				auser.setLastName(result.getString("last_name"));
 				auser.setEmail(result.getString("email"));	
 				auser.setAccounts(dao.findByUser(auser.getUserId()));
-			
+				//System.out.println("role_fk is "+result.getString("role_fk") +" outside before conditional in UserDAO");
+				
 				if(result.getString("role_fk") != null) {
+					//System.out.println("role_fk is " + result.getInt("role_fk")+ " inside conditional in UserDAO");
 					Role r = rdao.findByRoleId(result.getInt("role_fk"));
+					//System.out.println("The role is " + r);
 					auser.setRole(r);
 				}
 				
