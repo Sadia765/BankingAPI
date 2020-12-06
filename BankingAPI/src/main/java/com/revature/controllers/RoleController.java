@@ -1,0 +1,13 @@
+package main.java.com.revature.controllers;
+
+import main.java.com.revature.models.Role;
+import main.java.com.revature.services.RoleService;
+
+public class RoleController {
+
+	private final RoleService rs = new RoleService();
+	
+	public Role findByRoleId(int roleId) {
+		return rs.findByRoleId(roleId);
+	}
+}
