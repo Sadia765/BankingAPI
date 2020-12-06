@@ -188,9 +188,12 @@ public class AccountDAO implements IAccountDAO {
 			String sql = "INSERT INTO account(balance, status_fk, type_fk, user_fk)" + "VALUES(?,?,?,?);";
 
 			PreparedStatement statement = conn.prepareStatement(sql);
+			a.getStatus().setStatusId(2);
+			a.getStatus().setStatus("Open");
+			System.out.println("The status is " + a.getStatus());
 			statement.setDouble(++index, a.getBalance());
-			statement.setString(++index, a.getStatus().getStatus());
-			statement.setString(++index, a.getType().getType());
+			statement.setInt(++index, a.getStatus().getStatusId());
+			statement.setInt(++index, a.getType().getTypeId());
 			statement.setInt(++index, a.getUser_fk());
 
 			statement.execute();
@@ -208,13 +211,14 @@ public class AccountDAO implements IAccountDAO {
 		try (Connection conn = ConnectionUtil.getConnection()) {
 
 			int index = 0;
-
+//			System.out.println(a.getStatus().getStatusId());
+//			System.out.println(a.getType().getTypeId());
 			String sql = "UPDATE account SET balance = ?, status_fk = ?, type_fk = ?, user_fk = ? WHERE account_id = '"	+ a.getAccountId() + "';";
-
+		
 			PreparedStatement statement = conn.prepareStatement(sql);
 			statement.setDouble(++index, a.getBalance());
-			statement.setString(++index, a.getStatus().getStatus());
-			statement.setString(++index, a.getType().getType());
+			statement.setInt(++index, a.getStatus().getStatusId());
+			statement.setInt(++index, a.getType().getTypeId());
 			statement.setInt(++index, a.getUser_fk());
 			
 			statement.execute();
@@ -232,14 +236,16 @@ public class AccountDAO implements IAccountDAO {
 	public boolean withdraw(int accountId, double amount) {
 		Account a = dao.findById(accountId);
 		double inBank = a.getBalance();
+		System.out.println(inBank);
 		if(inBank>=amount) {
 			a.setBalance(inBank-amount);
+			
 		}
 		else { //inBank< amount => inBank-amount <0, i.e. nothing in bank.
 			a.setBalance(0);
 		}
 		updateAccount(a);
-		
+		System.out.println(a.getBalance());
 		return true;
 	}
 
@@ -258,6 +264,7 @@ public class AccountDAO implements IAccountDAO {
 	@Override
 	public boolean transfer(int sourceAccountId, int targetAccountId, double amount) {
 		withdraw(sourceAccountId, amount);
+		
 		deposit(targetAccountId, amount);
 		return true;
 	}

@@ -95,14 +95,18 @@ public class UserDAO implements IUserDAO{
 					+ "VALUES(?,?,?,?,?,?);";
 			
 			PreparedStatement statement = conn.prepareStatement(sql);
+			
+			System.out.println("inside addUser in UserDAO");
+
 			statement.setString(++index, u.getUsername());
 			statement.setString(++index, u.getPassword());
 			statement.setString(++index, u.getFirstName());
 			statement.setString(++index, u.getLastName());
-			statement.setString(++index, u.getRole().getRole());
+			statement.setString(++index, u.getEmail());
+			statement.setInt(++index, u.getRole().getRoleId());
 			
 			statement.execute();
-			u.setAccounts(dao.findByUser(u.getUserId()));
+//			u.setAccounts(dao.findByUser(u.getUserId()));
 			return true;
 
 		}

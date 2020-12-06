@@ -11,7 +11,7 @@ public class UserDTO {
 	public String lastName;
 	public String email;
 	public Role role;
-	public List<Account> accounts;
+//	public List<Account> accounts;
 	
 	
 	

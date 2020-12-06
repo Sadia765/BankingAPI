@@ -22,6 +22,7 @@ public class UserService {
 		List<User> list = findAll();
 		for(User auser: list) {
 			if(auser.getUsername().equals(u.getUsername()) || auser.getEmail().equals(u.getEmail())) {
+				System.out.println(auser);
 				return false; //usernames should be unique!!
 			}
 		}
