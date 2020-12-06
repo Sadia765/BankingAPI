@@ -1,0 +1,1519 @@
+!SESSION 2020-12-06 14:41:41.956 -----------------------------------------------
+eclipse.buildId=4.7.0.202006181331-RELEASE
+java.version=1.8.0_252
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/sadia007/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/sadia007/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2020-12-06 14:42:05.616
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-12-06 14:42:05.616
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.core.net 1 0 2020-12-06 14:42:06.204
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-12-06 14:42:07.091
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-12-06 14:42:07.091
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@bd28c86,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3ef089ce,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 0 2020-12-06 14:42:09.903
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-12-06 14:42:09.903
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.ui 2 2 2020-12-06 14:42:47.260
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-12-06 14:44:25.545 -----------------------------------------------
+eclipse.buildId=4.7.0.202006181331-RELEASE
+java.version=1.8.0_252
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/sadia007/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/sadia007/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2020-12-06 14:44:42.699
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-12-06 14:44:42.699
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.core.net 1 0 2020-12-06 14:44:43.229
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-12-06 14:44:44.036
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-12-06 14:44:44.036
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5e3cb58e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@18f8e2e0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2020-12-06 14:46:02.353
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-12-06 15:18:53.167 -----------------------------------------------
+eclipse.buildId=4.7.0.202006181331-RELEASE
+java.version=1.8.0_252
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/sadia007/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/sadia007/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2020-12-06 15:20:33.236
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-12-06 15:20:33.236
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.core.net 1 0 2020-12-06 15:20:33.820
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-12-06 15:20:34.649
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-12-06 15:20:34.649
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@219edc05,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@62f37bfd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2020-12-06 15:25:17.101
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-12-06 15:31:53.841 -----------------------------------------------
+eclipse.buildId=4.7.0.202006181331-RELEASE
+java.version=1.8.0_252
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/sadia007/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/sadia007/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2020-12-06 15:31:59.724
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-12-06 15:31:59.724
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.core.net 1 0 2020-12-06 15:32:00.276
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-12-06 15:32:01.121
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-12-06 15:32:01.121
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a1b7549,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7aa63f50,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2020-12-06 15:32:46.787
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:41:32.454
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:41:32.455
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1dba7721[org.springframework.tooling.boot.ls:1.19.0.202006181152(id=629)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:41:32.457
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:41:32.477
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.lsp4e 2 0 2020-12-06 15:41:39.831
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1784)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:41:53.989
+!MESSAGE Boot LS startup time from start to initialized: 21525ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:41:54.022
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.oIqeXjKMisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:41:54.023
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:41:54.024
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:41:54.026
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:41:54.028
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:41:54.028
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:41:54.029
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:41:54.029
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.oIqeXjKM => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:41:54.032
+!MESSAGE classpath=16 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:41:54.032
+!MESSAGE buffering callback sts4.classpath.oIqeXjKM BankingAPI false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:41:54.032
+!MESSAGE executing callback sts4.classpath.oIqeXjKM 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:41:54.056
+!MESSAGE executing callback sts4.classpath.oIqeXjKM SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:43:11.173
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.oIqeXjKM
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:43:11.174
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.oIqeXjKM
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:43:11.175
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:43:11.175
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.oIqeXjKM => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:47:03.737
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:47:03.737
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1dba7721[org.springframework.tooling.boot.ls:1.19.0.202006181152(id=629)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:47:03.740
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:47:24.976
+!MESSAGE Boot LS startup time from start to initialized: 21235ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:47:25.000
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.llCYpGruisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:47:25.000
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:47:25.000
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:47:25.001
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:47:25.001
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:47:25.001
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:47:25.001
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:47:25.002
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.llCYpGru => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:47:25.002
+!MESSAGE classpath=16 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:47:25.003
+!MESSAGE buffering callback sts4.classpath.llCYpGru BankingAPI false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:47:25.003
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:47:25.004
+!MESSAGE classpath=16 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:47:25.005
+!MESSAGE buffering callback sts4.classpath.llCYpGru BankingProject false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:47:25.005
+!MESSAGE executing callback sts4.classpath.llCYpGru 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 15:47:25.027
+!MESSAGE executing callback sts4.classpath.llCYpGru SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 16:01:44.156
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 16:01:44.156
+!MESSAGE buffering callback sts4.classpath.llCYpGru BankingProject true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 16:01:44.156
+!MESSAGE executing callback sts4.classpath.llCYpGru 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 16:01:44.158
+!MESSAGE executing callback sts4.classpath.llCYpGru SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2020-12-06 16:19:07.614
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1784)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2020-12-06 16:19:07.775
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:942)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:68)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1640)
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1632)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	... 13 more
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 13 more
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:68)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1640)
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1632)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 13 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 985 2020-12-06 16:19:07.777
+!MESSAGE Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:68)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1640)
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1632)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 13 more
+!SESSION 2020-12-06 16:23:25.778 -----------------------------------------------
+eclipse.buildId=4.7.0.202006181331-RELEASE
+java.version=1.8.0_252
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/sadia007/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/sadia007/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2020-12-06 16:23:31.224
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-12-06 16:23:31.224
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.core.net 1 0 2020-12-06 16:23:31.779
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-12-06 16:23:32.651
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-12-06 16:23:32.651
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ba318c2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@231d3ce,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 16:26:12.397
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 16:26:12.397
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2b287336[org.springframework.tooling.boot.ls:1.19.0.202006181152(id=629)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 16:26:12.399
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 16:26:12.425
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 16:26:33.638
+!MESSAGE Boot LS startup time from start to initialized: 21225ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 16:26:33.734
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.IrijqKeyisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 16:26:33.735
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 16:26:33.735
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 16:26:33.736
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 16:26:33.738
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 16:26:33.739
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 16:26:33.739
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 16:26:33.739
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.IrijqKey => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 16:26:33.742
+!MESSAGE classpath=16 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 16:26:33.742
+!MESSAGE buffering callback sts4.classpath.IrijqKey BankingAPI false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 16:26:33.743
+!MESSAGE executing callback sts4.classpath.IrijqKey 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 16:26:33.755
+!MESSAGE executing callback sts4.classpath.IrijqKey SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2020-12-06 16:36:02.732
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:942)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:68)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1640)
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1632)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	... 13 more
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 13 more
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:68)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1640)
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1632)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 13 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 985 2020-12-06 16:36:02.734
+!MESSAGE Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:68)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1640)
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1632)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 13 more
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2020-12-06 16:36:03.076
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:942)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	... 10 more
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 10 more
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 10 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 985 2020-12-06 16:36:03.077
+!MESSAGE Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 10 more
+
+!ENTRY org.eclipse.lsp4e 2 0 2020-12-06 16:36:54.576
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2020-12-06 16:37:13.592
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2020-12-06 16:39:29.181
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2020-12-06 16:41:51.277
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:942)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:68)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1640)
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1632)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.reflect.GeneratedConstructorAccessor94.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	... 13 more
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 13 more
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.reflect.GeneratedConstructorAccessor94.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:68)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1640)
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1632)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 13 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 985 2020-12-06 16:41:51.277
+!MESSAGE Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.reflect.GeneratedConstructorAccessor94.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:68)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1640)
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1632)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 13 more
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2020-12-06 16:41:51.635
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:942)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.reflect.GeneratedConstructorAccessor94.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	... 10 more
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 10 more
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.reflect.GeneratedConstructorAccessor94.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 10 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 985 2020-12-06 16:41:51.635
+!MESSAGE Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.reflect.GeneratedConstructorAccessor94.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 10 more
+
+!ENTRY org.eclipse.lsp4e 2 0 2020-12-06 16:43:08.123
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2020-12-06 16:43:13.295
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2020-12-06 16:45:57.503
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2020-12-06 16:45:59.775
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:942)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:68)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1640)
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1632)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+	at sun.reflect.GeneratedConstructorAccessor94.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	... 13 more
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 13 more
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+	at sun.reflect.GeneratedConstructorAccessor94.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:68)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1640)
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1632)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 13 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 985 2020-12-06 16:45:59.775
+!MESSAGE Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+	at sun.reflect.GeneratedConstructorAccessor94.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:68)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1640)
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1632)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 13 more
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2020-12-06 16:46:01.051
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:942)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:591)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.reflect.GeneratedConstructorAccessor94.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	... 9 more
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 9 more
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.reflect.GeneratedConstructorAccessor94.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:591)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 9 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 985 2020-12-06 16:46:01.051
+!MESSAGE Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.reflect.GeneratedConstructorAccessor94.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:591)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjava%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 9 more
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-12-06 16:48:53.514
+!MESSAGE failed to load maven project for org.eclipse.ui.part.FileEditorInput(/BankingAPI/pom.xml)
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:847)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1064)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1063)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:244)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:634)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:938)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for com.fasterxml.jackson.core:jackson-databind:jar is missing. @ line 31, column 17
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for com.fasterxml.jackson.core:jackson-databind:jar is missing. @ line 31, column 17
+
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:675)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$13(ProjectRegistryManager.java:867)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1022)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:863)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:832)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1064)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1063)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:244)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:634)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:938)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2020-12-06 16:48:53.514
+!MESSAGE Could not read maven project
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2020-12-06 16:48:53.514
+!MESSAGE Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for com.fasterxml.jackson.core:jackson-databind:jar is missing. @ line 31, column 17
+
+!STACK 0
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for com.fasterxml.jackson.core:jackson-databind:jar is missing. @ line 31, column 17
+
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:675)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$13(ProjectRegistryManager.java:867)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1022)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:863)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:832)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1064)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1063)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:244)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:634)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:938)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2020-12-06 16:49:28.376
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2020-12-06 16:49:28.510
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:942)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:68)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1640)
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1632)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+	at sun.reflect.GeneratedConstructorAccessor94.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	... 13 more
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 13 more
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+	at sun.reflect.GeneratedConstructorAccessor94.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:68)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1640)
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1632)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 13 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 985 2020-12-06 16:49:28.510
+!MESSAGE Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+	at sun.reflect.GeneratedConstructorAccessor94.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:68)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1640)
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1632)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fcom%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 13 more
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2020-12-06 17:01:07.655
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjavax%2fpackage-summary.html
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:942)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:68)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1640)
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1632)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjavax%2fpackage-summary.html
+	at sun.reflect.GeneratedConstructorAccessor94.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	... 13 more
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjavax%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 13 more
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjavax%2fpackage-summary.html
+	at sun.reflect.GeneratedConstructorAccessor94.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:68)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1640)
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1632)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjavax%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 13 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 985 2020-12-06 17:01:07.656
+!MESSAGE Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjavax%2fpackage-summary.html
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjavax%2fpackage-summary.html
+	at sun.reflect.GeneratedConstructorAccessor94.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:887)
+	at org.eclipse.jdt.internal.core.PackageFragment.getAttachedJavadoc(PackageFragment.java:587)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:2142)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:520)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:68)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1640)
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1632)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: java.io.IOException: Server returned HTTP response code: 503 for URL: https://docs.oracle.com/pls/rdman/handle404?X_ORCL_404path=%2fjavase%2f8%2fdocs%2fapi%2fjavax%2fpackage-summary.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:873)
+	... 13 more
+
+!ENTRY org.eclipse.ui 2 2 2020-12-06 17:02:00.428
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 17:02:07.865
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 17:02:07.881
+!MESSAGE classpath=16 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 17:02:07.881
+!MESSAGE buffering callback sts4.classpath.IrijqKey BankingAPI false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 17:02:07.881
+!MESSAGE executing callback sts4.classpath.IrijqKey 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-06 17:02:07.887
+!MESSAGE executing callback sts4.classpath.IrijqKey SUCCESS [done]
